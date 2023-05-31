@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E17E10D28CE0F5400EDA1CD /* UiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17E10C28CE0F5400EDA1CD /* UiView.swift */; };
+		4E17E11128CE5D3500EDA1CD /* UITextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E17E11028CE5D3500EDA1CD /* UITextView.swift */; };
+		4E7BC52C28CF18F5005E491C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4E7BC52B28CF18F5005E491C /* Localizable.strings */; };
+		4E7BD4CE28CC58BC00CF53A5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BD4CD28CC58BC00CF53A5 /* AppDelegate.swift */; };
+		4E7BD4D028CC58BC00CF53A5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BD4CF28CC58BC00CF53A5 /* SceneDelegate.swift */; };
+		4E7BD4D528CC58BC00CF53A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7BD4D328CC58BC00CF53A5 /* Main.storyboard */; };
+		4E7BD4D728CC58BE00CF53A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E7BD4D628CC58BE00CF53A5 /* Assets.xcassets */; };
+		4E7BD4DA28CC58BE00CF53A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E7BD4D828CC58BE00CF53A5 /* LaunchScreen.storyboard */; };
+		4E7BD4E728CC5C5F00CF53A5 /* Triangle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E7BD4E628CC5C5F00CF53A5 /* Triangle.swift */; };
+		4E91A07728CF1ADE00997AA5 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91A07628CF1ADE00997AA5 /* R.generated.swift */; };
+		4E91A07B28CF34F900997AA5 /* TriangleCalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91A07A28CF34F900997AA5 /* TriangleCalculatorView.swift */; };
+		4E91A07D28CF363800997AA5 /* TriangleCalculatorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E91A07C28CF363800997AA5 /* TriangleCalculatorController.swift */; };
+		4EC52A7E28CC9DD800C8DE4B /* TriangleCalculatorViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EC52A7D28CC9DD800C8DE4B /* TriangleCalculatorViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4E17E10C28CE0F5400EDA1CD /* UiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiView.swift; sourceTree = "<group>"; };
+		4E17E11028CE5D3500EDA1CD /* UITextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITextView.swift; sourceTree = "<group>"; };
+		4E7BC52B28CF18F5005E491C /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		4E7BD4CA28CC58BC00CF53A5 /* Triangle Inequality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Triangle Inequality.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7BD4CD28CC58BC00CF53A5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4E7BD4CF28CC58BC00CF53A5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4E7BD4D428CC58BC00CF53A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4E7BD4D628CC58BE00CF53A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4E7BD4D928CC58BE00CF53A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4E7BD4DB28CC58BE00CF53A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4E7BD4E628CC5C5F00CF53A5 /* Triangle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Triangle.swift; sourceTree = "<group>"; };
+		4E91A07628CF1ADE00997AA5 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
+		4E91A07A28CF34F900997AA5 /* TriangleCalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleCalculatorView.swift; sourceTree = "<group>"; };
+		4E91A07C28CF363800997AA5 /* TriangleCalculatorController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleCalculatorController.swift; sourceTree = "<group>"; };
+		4EC52A7D28CC9DD800C8DE4B /* TriangleCalculatorViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleCalculatorViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4E7BD4C728CC58BC00CF53A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		078A499E9D33CDADD0B951E0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		4E17E10A28CE0F3100EDA1CD /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4E17E10C28CE0F5400EDA1CD /* UiView.swift */,
+				4E17E11028CE5D3500EDA1CD /* UITextView.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4E7BC52828CF18A6005E491C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BD4D628CC58BE00CF53A5 /* Assets.xcassets */,
+				4E7BD4DB28CC58BE00CF53A5 /* Info.plist */,
+				4E7BC52B28CF18F5005E491C /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4E7BD4C128CC58BC00CF53A5 = {
+			isa = PBXGroup;
+			children = (
+				4E91A07628CF1ADE00997AA5 /* R.generated.swift */,
+				4E7BD4CC28CC58BC00CF53A5 /* Triangle Inequality */,
+				4E7BD4CB28CC58BC00CF53A5 /* Products */,
+				078A499E9D33CDADD0B951E0 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		4E7BD4CB28CC58BC00CF53A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BD4CA28CC58BC00CF53A5 /* Triangle Inequality.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4E7BD4CC28CC58BC00CF53A5 /* Triangle Inequality */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BC52828CF18A6005E491C /* Resources */,
+				4E17E10A28CE0F3100EDA1CD /* Extensions */,
+				4E7BD4E428CC5C2800CF53A5 /* ViewModel */,
+				4E7BD4E328CC5C2300CF53A5 /* View */,
+				4E7BD4E228CC5C1600CF53A5 /* Model */,
+				4E7BD4CD28CC58BC00CF53A5 /* AppDelegate.swift */,
+				4E7BD4CF28CC58BC00CF53A5 /* SceneDelegate.swift */,
+				4E7BD4D828CC58BE00CF53A5 /* LaunchScreen.storyboard */,
+			);
+			path = "Triangle Inequality";
+			sourceTree = "<group>";
+		};
+		4E7BD4E228CC5C1600CF53A5 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4E7BD4E628CC5C5F00CF53A5 /* Triangle.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4E7BD4E328CC5C2300CF53A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4E91A07A28CF34F900997AA5 /* TriangleCalculatorView.swift */,
+				4E91A07C28CF363800997AA5 /* TriangleCalculatorController.swift */,
+				4E7BD4D328CC58BC00CF53A5 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4E7BD4E428CC5C2800CF53A5 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				4EC52A7D28CC9DD800C8DE4B /* TriangleCalculatorViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4E7BD4C928CC58BC00CF53A5 /* Triangle Inequality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E7BD4DE28CC58BE00CF53A5 /* Build configuration list for PBXNativeTarget "Triangle Inequality" */;
+			buildPhases = (
+				4E91A07528CF1A2A00997AA5 /* R.swift Run Script */,
+				4E7BD4C628CC58BC00CF53A5 /* Sources */,
+				4E7BD4C728CC58BC00CF53A5 /* Frameworks */,
+				4E7BD4C828CC58BC00CF53A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Triangle Inequality";
+			productName = "Triangle Inequality";
+			productReference = 4E7BD4CA28CC58BC00CF53A5 /* Triangle Inequality.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4E7BD4C228CC58BC00CF53A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					4E7BD4C928CC58BC00CF53A5 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 4E7BD4C528CC58BC00CF53A5 /* Build configuration list for PBXProject "Triangle Inequality" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4E7BD4C128CC58BC00CF53A5;
+			productRefGroup = 4E7BD4CB28CC58BC00CF53A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4E7BD4C928CC58BC00CF53A5 /* Triangle Inequality */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4E7BD4C828CC58BC00CF53A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E7BD4DA28CC58BE00CF53A5 /* LaunchScreen.storyboard in Resources */,
+				4E7BC52C28CF18F5005E491C /* Localizable.strings in Resources */,
+				4E7BD4D728CC58BE00CF53A5 /* Assets.xcassets in Resources */,
+				4E7BD4D528CC58BC00CF53A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4E91A07528CF1A2A00997AA5 /* R.swift Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			name = "R.swift Run Script";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$SRCROOT/R.generated.swift",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$PODS_ROOT/R.swift/rswift\" generate \"$SRCROOT/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4E7BD4C628CC58BC00CF53A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E17E11128CE5D3500EDA1CD /* UITextView.swift in Sources */,
+				4E91A07728CF1ADE00997AA5 /* R.generated.swift in Sources */,
+				4E7BD4CE28CC58BC00CF53A5 /* AppDelegate.swift in Sources */,
+				4E91A07D28CF363800997AA5 /* TriangleCalculatorController.swift in Sources */,
+				4E17E10D28CE0F5400EDA1CD /* UiView.swift in Sources */,
+				4EC52A7E28CC9DD800C8DE4B /* TriangleCalculatorViewModel.swift in Sources */,
+				4E7BD4D028CC58BC00CF53A5 /* SceneDelegate.swift in Sources */,
+				4E91A07B28CF34F900997AA5 /* TriangleCalculatorView.swift in Sources */,
+				4E7BD4E728CC5C5F00CF53A5 /* Triangle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4E7BD4D328CC58BC00CF53A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E7BD4D428CC58BC00CF53A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4E7BD4D828CC58BE00CF53A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4E7BD4D928CC58BE00CF53A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4E7BD4DC28CC58BE00CF53A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4E7BD4DD28CC58BE00CF53A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4E7BD4DF28CC58BE00CF53A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Triangle Inequality/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.borja.Triangle-Inequality";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4E7BD4E028CC58BE00CF53A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Triangle Inequality/Resources/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.borja.Triangle-Inequality";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4E7BD4C528CC58BC00CF53A5 /* Build configuration list for PBXProject "Triangle Inequality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7BD4DC28CC58BE00CF53A5 /* Debug */,
+				4E7BD4DD28CC58BE00CF53A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E7BD4DE28CC58BE00CF53A5 /* Build configuration list for PBXNativeTarget "Triangle Inequality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E7BD4DF28CC58BE00CF53A5 /* Debug */,
+				4E7BD4E028CC58BE00CF53A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4E7BD4C228CC58BC00CF53A5 /* Project object */;
+}

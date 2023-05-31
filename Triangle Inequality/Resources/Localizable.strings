@@ -1,0 +1,17 @@
+/* 
+  Localizable.strings
+  Triangle Inequality
+
+  Created by John Nikko Borja on 9/12/22.
+  
+*/
+
+// MARK: Home Labels
+"home.header" = "Golden Triangle Challenge";
+"home.input.placeholder" = "Enter triangle sides here";
+"home.note" = "Note: Use comma for side value separator.";
+"home.button.title" = "Submit";
+"home.result.label" = "Result:";
+
+// MARK: System Fonts
+"font.chalkduster" = "Chalkduster";
